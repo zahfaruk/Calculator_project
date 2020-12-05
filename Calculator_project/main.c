@@ -36,6 +36,7 @@ int main()
             result = firstNum % secondNum;
             break;
         }
+        // Output
         if(oper == '/')
             printf("Final result is %d %c %d = %.2f\n", firstNum, oper, secondNum, result);
         else
